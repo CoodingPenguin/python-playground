@@ -4,13 +4,13 @@ version = "0.1.0"
 description = "experiment various python features"
 authors = ["CoodingPenguin <coodingpenguin@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_playground"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 requests = "^2.29.0"
 pytest = "^7.3.1"
 pydantic = "^1.10.7"
+sqlalchemy = "^2.0.14"
 
 
 [build-system]
